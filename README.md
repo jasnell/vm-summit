@@ -19,6 +19,7 @@ Start of an agenda for the Node.js VM Summit
   * Error
   * VM
   * Promises
+  * Intl
 * Brainstorm approaches for addressing the differences and requirements
 * Discuss creation of a Node.js VM Compatibility Certification that defines the limits for what a VM must do to be compatible with Node.
 * Testing VM Compatibility (VM test suite in CI)
