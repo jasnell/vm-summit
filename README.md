@@ -1,6 +1,28 @@
 # Node.js VM Summit Agenda
 Start of an agenda for the Node.js VM Summit
 
+## High Level Agenda
+
+(This is an initial take on an agenda for the two days, please open PR's to suggest changes)
+
+* Introduction
+* Defining the scope of the issue
+  * Mapping the surface area of v8's use in Node core and ecosystem
+  * Mapping the non-obvious dependencies (behaviors implemented by v8 that are assumed by Node core)
+  * Mapping the EcmaScript language requirements (what EcmaScript features are implemented by v8 that are assumed by Node core)
+* Defining the differences / similarities between v8 and chakra from an embedders point of view
+  * Does v8 provide anything that chakra does not? (vice versa)
+  * Does v8 require anything that chakra does not? (vice versa)
+  * What are the language and build level differences?
+* Use cases
+  * Buffer
+  * Error
+  * VM
+  * Promises
+* Brainstorm approaches for addressing the differences and requirements
+* Discuss creation of a Node.js VM Compatibility Certification that defines the limits for what a VM must do to be compatible with Node.
+* Testing VM Compatibility (VM test suite in CI)
+
 ## Arunesh Chandra's proposal (Chakra)
 
 ### PART A: Core technical things we should discuss and make progress on
