@@ -7,22 +7,41 @@ Start of an agenda for the Node.js VM Summit
 
 * Introduction
 * Defining the scope of the issue
+  * Node core versus module usage/requirements
+    * are we going to cover both, may be different solution for each
+  * Key problems
+    * need to update (Node core/modules) for new verion
+    * need to recompile (Node core/modules) for new version
+    * tight binding to Node executable
+* Identify Minimal surface area
   * Mapping the surface area of v8's use in Node core and ecosystem
-  * Mapping the non-obvious dependencies (behaviors implemented by v8 that are assumed by Node core)
-  * Mapping the EcmaScript language requirements (what EcmaScript features are implemented by v8 that are assumed by Node core)
-* Defining the differences / similarities between v8 and chakra from an embedders point of view
-  * Does v8 provide anything that chakra does not? (vice versa)
-  * Does v8 require anything that chakra does not? (vice versa)
-  * What are the language and build level differences?
-* Use cases
-  * Buffer
-  * Error
-  * VM
-  * Promises
-  * Intl
-* Brainstorm approaches for addressing the differences and requirements
-* Discuss creation of a Node.js VM Compatibility Certification that defines the limits for what a VM must do to be compatible with Node.
-* Testing VM Compatibility (VM test suite in CI)
+    * Mapping the non-obvious dependencies (behaviors implemented by v8 that are assumed by Node core)
+    * Mapping the EcmaScript language requirements (what EcmaScript features are implemented by v8 that are assumed by Node core)
+  * Defining the differences / similarities between v8 and chakra from an embedders point of view
+    * Does v8 provide anything that chakra does not? (vice versa)
+    * Does v8 require anything that chakra does not? (vice versa)
+    * What are the language and build level differences?
+  * Brainstorm approaches for addressing the differences and requirements
+  * Use cases walkthough
+    * Buffer
+    * Error
+    * VM
+    * Promises
+    * Intl
+* Map out the way forward
+  * What should philosophy be for core
+  * Additional community input
+  * Which problems will be addressed (Node core/modules) - update, recompile, binding
+  * API definition
+    * c/c++ ?
+    * Freeze current V8 hosting APIs as neutral APIs ?
+    * Evolve the current v8 API into a stable, multi-engine API ?
+    * Design and Build neutral VM hosting APIs for Node ?
+  * Performance
+  * Compatibility
+    * Discuss creation of a Node.js VM Compatibility Certification that defines the limits for what a VM must do to be compatible with Node.
+    * Testing VM Compatibility (VM test suite in CI)
+* Identify actions and assign owners
 
 ## Arunesh Chandra's proposal (Chakra)
 
