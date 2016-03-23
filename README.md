@@ -10,7 +10,7 @@ Start of an agenda for the Node.js VM Summit
   * Node core versus module usage/requirements
     * are we going to cover both, may be different solution for each
   * Key problems
-    * need to update (Node core/modules) for new verion
+    * need to update (Node core/modules) for new version
     * need to recompile (Node core/modules) for new version
     * tight binding to Node executable
 * Identify Minimal surface area
@@ -34,6 +34,7 @@ Start of an agenda for the Node.js VM Summit
   * Which problems will be addressed (Node core/modules) - update, recompile, binding
   * API definition
     * c/c++ ?
+    * plugable ?
     * Freeze current V8 hosting APIs as neutral APIs ?
     * Evolve the current v8 API into a stable, multi-engine API ?
     * Design and Build neutral VM hosting APIs for Node ?
