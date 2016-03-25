@@ -3,7 +3,17 @@ Start of an agenda for the Node.js VM Summit
 
 ## High Level Agenda
 
-(This is an initial take on an agenda for the two days, please open PR's to suggest changes)
+* Introduction
+* Defining the scope of the issue
+  * Enumerate the ecosystem uses-cases / problems we are trying to address as part of this discussion. Starting point:
+    * need to update (Node core/modules) for new version of V8
+    * need to recompile (Node core/modules) for new version of V8
+    * tight binding to Node executable
+    * ...
+* How would we address these problems? How might that lead to Node work towards VM neutrality?
+* Figure out we are going to split up the rest of the 2 days to work on these problems.
+
+## Agenda proposal from IBM
 
 * Introduction
 * Defining the scope of the issue
@@ -74,7 +84,7 @@ Start of an agenda for the Node.js VM Summit
   * Discuss community concerns and find solutions / mitigations for the same
     * Maintenance cost
     * Code velocity
-    * CI requirements 
+    * CI requirements
     * Zero-Day notification and patching process
 * Chakra Team participation: Identify avenues for Chakra teams participation in the Foundation as a VM implementer
   * CTC/TSC/WGs
