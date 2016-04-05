@@ -1,45 +1,77 @@
 # Node.js VM Summit Agenda
-Start of an agenda for the Node.js VM Summit
 
-## High Level Agenda
+## Participation
 
-* Introduction
-* Defining the scope of the issue
-  * Enumerate the ecosystem uses-cases / problems we are trying to address as part of this discussion. Starting point:
-    * need to update (Node core/modules) for new version of V8
-    * need to recompile (Node core/modules) for new version of V8
-    * tight binding to Node executable
-    * ...
-* How would we address these problems? How might that lead to Node work towards VM neutrality?
-* Figure out we are going to split up the rest of the 2 days to work on these problems.
+1001 E. Hillsdale Blvd, Foster City CA
+Suite 400 (Fourth floor)
 
-## Agenda proposal from IBM
+### Remote Participants
 
-* Introduction
-* Defining the scope of the issue
-  * Node core versus module usage/requirements
-    * are we going to cover both, may be different solution for each
-  * Key problems
-    * need to update (Node core/modules) for new version
-    * need to recompile (Node core/modules) for new version
-    * tight binding to Node executable
-* Identify Minimal surface area
-  * Mapping the surface area of v8's use in Node core and ecosystem
+There will be two options: A limited Google Hangout (max 8-participants) and a Conference Call Dial In.
+
+The Google Hangout participation link will be added here in the morning. The conference call number will be emailed out directly.
+
+## 2016-04-05
+
+There are two primary objectives for Day One:
+
+* To ensure we all have a shared understanding of the issues and use cases that are being considered, and
+* To clearly identify the boundary between Node.js and the underlying VM.
+
+The secondary objectives include:
+* To ensure a shared understanding of the similarities and differences between Chakra and v8
+* To ensure a shared understanding of what the Microsoft Chakra team is looking to accomplish
+* To level set on where things are currently at with regards to v8 in core
+
+This is a rough agenda. We can alter the details as we go depending on how the conversation proceeds.
+
+* 8:00am - 8:30am - Arrival and Getting Settled. 
+* 8:30am - 9:00am - Introductions and Getting Started
+* 9:00am - 11:30am - Framing the Issues and Use Cases
+  * At the end of this period, we should have a clear shared understanding of the fundamental issues being considered
+* 11:30am - 12:30pm - Lunch
+* 12:30pm - 1:30pm - Node.js and Chakra, Discussing what the Microsoft team has done, their goals, etc
+* 1:30pm - 2:30pm - Node.js and v8, Discussing where things are at with v8, ABI stability, current plans, goals, etc
+* 2:30pm - 4:30p - General discussion of what issues a multi-VM Node.js would have to address
+
+## 2016-04-06
+
+The Day Two Agenda will be driven by the issues and discussions from Day 1. The primary objective of Day Two is to work through as many of the issues identified on Day One as possible. By the end of Day Two, we should have a clear shared understanding of the specific next steps.
+
+* 8:00am - 8:30am - Arrival and Getting Settled
+* 8:30am - 9:00am - Agenda Bashing - Prioritize discussion items from previous afternoon
+* 9:00am - 11:30am - Discussion
+* 11:30am - 12:30pm - Lunch
+* 12:30pm - 4:30pm - Discussion
+
+
+## High Level Discussion Points
+
+* Should Node.js be VM-neutral?
+  * What is the advantage to the ecosystem?
+  * What are the key challenges?
+* Definining the scope of the issue
+  * Mapping out Node.js' own dependencies on the VM layer.
     * Mapping the non-obvious dependencies (behaviors implemented by v8 that are assumed by Node core)
-    * Mapping the EcmaScript language requirements (what EcmaScript features are implemented by v8 that are assumed by Node core)
+    * Mapping the EcmaScript language requirements (what ES features are implemented by v8 that are assumed by Node core)
+  * Mapping out the ecosystem use-cases / problems, including:
+    * need to updated / recompile for new V8 versions
+    * tight bindings to Node.js executable
+  * Do we want to separate Node.js' use of the VM from the ecosystems? Or do we consider these together?
   * Defining the differences / similarities between v8 and chakra from an embedders point of view
     * Does v8 provide anything that chakra does not? (vice versa)
     * Does v8 require anything that chakra does not? (vice versa)
     * What are the language and build level differences?
-  * Brainstorm approaches for addressing the differences and requirements
-  * Use cases walkthough
-    * Buffer
-    * Error
-    * VM
-    * Promises
-    * Intl
+* Mapping out module/capability/subsystem specific issues
+  * Buffer
+  * Error Handling
+  * VM
+  * Promises / EcmaScript Language Features
+  * Intl
+  * Debugging
+  * Post Mortem
+  * Native Modules / APIs / ABIs
 * Map out the way forward
-  * What should philosophy be for core
   * Additional community input
   * Which problems will be addressed (Node core/modules) - update, recompile, binding
   * API definition
