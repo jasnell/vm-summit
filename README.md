@@ -13,7 +13,10 @@ Google Docs: https://docs.google.com/document/d/1lTYV31RLQd0Rr8tZUbmH0qy3JRLFwJv
 
 There will be two options: A limited Google Hangout (max 8-participants) and a Conference Call Dial In.
 
-The Google Hangout participation link: https://plus.google.com/hangouts/_/3pbsdj25ljarzecugvcupghlbee
+~~The Google Hangout participation link: https://plus.google.com/hangouts/_/3pbsdj25ljarzecugvcupghlbee~~
+
+On Air: https://plus.google.com/hangouts/_/hoaevent/AP36tYc59g1dJapPjToruLo5u5Sqa5uYmIhBUrKWGd-6FPbF0S1EYg?hl=en&authuser=0
+
 
 The conference call number will be emailed out directly.
 
