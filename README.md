@@ -5,6 +5,10 @@
 1001 E. Hillsdale Blvd, Foster City CA
 Suite 400 (Fourth floor)
 
+### Notes
+
+Google Docs: https://docs.google.com/document/d/1lTYV31RLQd0Rr8tZUbmH0qy3JRLFwJvAh44uFhffw5c
+
 ### Remote Participants
 
 There will be two options: A limited Google Hangout (max 8-participants) and a Conference Call Dial In.
