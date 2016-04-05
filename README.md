@@ -9,7 +9,9 @@ Suite 400 (Fourth floor)
 
 There will be two options: A limited Google Hangout (max 8-participants) and a Conference Call Dial In.
 
-The Google Hangout participation link will be added here in the morning. The conference call number will be emailed out directly.
+The Google Hangout participation link: https://plus.google.com/hangouts/_/3pbsdj25ljarzecugvcupghlbee
+
+The conference call number will be emailed out directly.
 
 ## 2016-04-05
 
