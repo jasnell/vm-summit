@@ -11,11 +11,7 @@ Google Docs: https://docs.google.com/document/d/1lTYV31RLQd0Rr8tZUbmH0qy3JRLFwJv
 
 ### Remote Participants
 
-There will be two options: A limited Google Hangout (max 8-participants) and a Conference Call Dial In.
-
-~~The Google Hangout participation link: https://plus.google.com/hangouts/_/3pbsdj25ljarzecugvcupghlbee~~
-
-On Air: https://plus.google.com/hangouts/_/hoaevent/AP36tYc59g1dJapPjToruLo5u5Sqa5uYmIhBUrKWGd-6FPbF0S1EYg?hl=en&authuser=0
+https://plus.google.com/hangouts/_/hoaevent/AP36tYf9uj4VRFxP4jc7haEq7zOs33Hnv8J5Oj1VINNyfG7lz7B1EQ?hl=en&authuser=0
 
 
 The conference call number will be emailed out directly.
